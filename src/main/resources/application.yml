@@ -5,9 +5,10 @@ server:
 
 spring:
   datasource:
-    password:
+    password: root
     url: jdbc:postgresql://localhost:5432/registration
-    username:
+    username: postgres
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -34,6 +35,3 @@ spring:
           connectiontimeout: 5000
           timeout: 3000
           writetimeout: 5000
-
-  Footer
-  © 2022 GitHub, Inc.
