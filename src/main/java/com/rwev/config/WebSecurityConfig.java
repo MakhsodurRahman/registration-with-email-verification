@@ -1,6 +1,6 @@
 package com.rwev.config;
 
-import com.rwev.service.definition.AppUserService;
+import com.rwev.appuser.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

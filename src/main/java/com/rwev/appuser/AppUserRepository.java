@@ -1,6 +1,6 @@
-package com.rwev.repository;
+package com.rwev.appuser;
 
-import com.rwev.entity.AppUser;
+import com.rwev.appuser.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

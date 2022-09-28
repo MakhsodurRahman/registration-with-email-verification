@@ -1,12 +1,9 @@
-package com.rwev.service.implementation;
+package com.rwev.registration;
 
-import com.rwev.dto.RegistrationReqDto;
-import com.rwev.entity.AppUser;
-import com.rwev.enums.AppUserRole;
-import com.rwev.repository.AppUserRepository;
-import com.rwev.service.EmailValidator;
-import com.rwev.service.definition.AppUserService;
-import com.rwev.service.definition.RegistrationService;
+import com.rwev.appuser.AppUser;
+import com.rwev.appuser.AppUserRole;
+import com.rwev.appuser.AppUserRepository;
+import com.rwev.appuser.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.rwev.enums;
+package com.rwev.appuser;
 
 public enum AppUserRole {
     USER,

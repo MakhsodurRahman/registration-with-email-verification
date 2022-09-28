@@ -1,4 +1,4 @@
-package com.rwev.service;
+package com.rwev.registration;
 
 import org.springframework.stereotype.Service;
 

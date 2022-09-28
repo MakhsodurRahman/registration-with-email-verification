@@ -1,6 +1,6 @@
-package com.rwev.controller.definition;
+package com.rwev.registration;
 
-import com.rwev.dto.RegistrationReqDto;
+import com.rwev.registration.RegistrationReqDto;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,8 +1,4 @@
-package com.rwev.controller.implementation;
-
-import com.rwev.controller.definition.UserRegistrationController;
-import com.rwev.dto.RegistrationReqDto;
-import com.rwev.service.definition.RegistrationService;
+package com.rwev.registration;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RestController;
 

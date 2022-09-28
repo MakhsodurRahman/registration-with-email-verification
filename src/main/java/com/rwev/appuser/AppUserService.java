@@ -1,7 +1,5 @@
-package com.rwev.service.definition;
+package com.rwev.appuser;
 
-import com.rwev.entity.AppUser;
-import com.rwev.enums.AppUserRole;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 

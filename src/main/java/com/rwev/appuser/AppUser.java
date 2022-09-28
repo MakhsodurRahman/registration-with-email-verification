@@ -1,6 +1,5 @@
-package com.rwev.entity;
+package com.rwev.appuser;
 
-import com.rwev.enums.AppUserRole;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

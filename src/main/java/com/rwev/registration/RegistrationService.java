@@ -1,6 +1,4 @@
-package com.rwev.service.definition;
-
-import com.rwev.dto.RegistrationReqDto;
+package com.rwev.registration;
 
 public interface RegistrationService {
 

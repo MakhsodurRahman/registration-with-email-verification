@@ -1,4 +1,4 @@
-package com.rwev.dto;
+package com.rwev.registration;
 
 import lombok.*;
 
