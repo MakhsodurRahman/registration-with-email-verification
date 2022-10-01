@@ -1,8 +1,5 @@
 package com.rwev.appuser;
 
-import com.rwev.appuser.AppUser;
-import com.rwev.appuser.AppUserRepository;
-import com.rwev.appuser.AppUserService;
 import com.rwev.registration.token.ConfirmationToken;
 import com.rwev.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
@@ -48,5 +45,8 @@ public class AppUserServiceImpl implements AppUserService {
         return token;
     }
 
+    public int enableAppUser(String email) {
+        return appUserRepository.enableAppUser(email);
+    }
 
 }
