@@ -8,4 +8,5 @@ public interface AppUserService extends UserDetailsService {
     public String signUp(AppUser appUser);
     public int enableAppUser(String email);
 
+
 }
