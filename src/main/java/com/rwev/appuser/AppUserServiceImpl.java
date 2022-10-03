@@ -15,6 +15,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class AppUserServiceImpl implements AppUserService {
 
+
     private final AppUserRepository appUserRepository;
     private final PasswordEncoder passwordEncoder;
     private final ConfirmationTokenService confirmationTokenService;
